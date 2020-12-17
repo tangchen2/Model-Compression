@@ -2,6 +2,8 @@
 
 This repository provides a toy tutorial of model compression including network pruning, knowledge distillation and quantization (MNN). Most code are originally from other repositories, while i modified on my experiment.
 
+[Tutorial Link](https://zhuanlan.zhihu.com/p/337545512)
+
 Base Model: VGG16, ResNet34
 
 Dataset: CIFAR10
@@ -99,11 +101,10 @@ YOUR_PATH/quantized.out mnn_model_path quant_model_path ./model/weight/quant_con
 1. quant_model Accuracy decrease about 2%（not find reason yet）
 2. quant_model infer time longer than mnn model（only test on mac, maybe platform problem not support int8 operation?）
 
-
-
 ## Reference
 
 [network slimming](https://github.com/Eric-mingjie/network-slimming)
 
 [Knowledge Distillation](https://github.com/peterliht/knowledge-distillation-pytorch)
 
+[MNN](https://www.yuque.com/mnn/cn)
