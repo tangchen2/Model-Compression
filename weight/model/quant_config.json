@@ -1,0 +1,20 @@
+{
+    "format":"RGB",
+    "mean":[
+        125.307,
+        122.961,
+        113.8575
+    ],
+    "normal":[
+        0.01951,
+        0.01967,
+        0.01938
+    ],
+
+    "width":32,
+    "height":32,
+    "path":"YOUR_IMAGE_PATH",
+    "used_image_num":100,
+    "feature_quantize_method":"KL",
+    "weight_quantize_method":"MAX_ABS"
+}
